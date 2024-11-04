@@ -1,0 +1,87 @@
+/* Header.css */
+.app-header {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Set a high z-index to ensure it's on top of other elements */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    background: linear-gradient(to top, #3498db, #2980b9); /* Set the background color of the header */
+    color: #fff; /* Set the text color */
+    padding: 10px; /* Add padding for spacing */
+
+    transition: height 0.5s ease, opacity 0.5s ease, font-size 0.5s ease; /* Add smooth transition effect for changes */
+    height: calc(10px + 4vmin);
+    font-size: calc(5px + 1vmin);
+    font-family: Roboto;
+
+    border-bottom: 2px solid #2980b9;
+    opacity: 0.9;
+}
+
+.app-header.at-top {
+
+    height: calc(10px + 9vmin); /* Adjust the height when the user is at the top */
+    font-size: calc(3px + 2vmin);
+    opacity: 0.82;
+}
+
+.left-header {
+
+    width: 50%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.right-header {
+
+    width: 49%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+
+    margin-right: 25px;
+    user-select: none;
+}
+
+.image-header {
+
+    width: calc(5px + 4vmin);
+    margin-right: 4%;
+    margin-left: 2%;
+
+    transition: width 0.5s ease, margin-right 0.5s ease;
+}
+
+.image-header.at-top {
+
+    width: calc(5px + 8vmin);
+    margin-right: 5%;
+}
+
+.normal-text {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use the text color of the parent element */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 12%;
+    height: calc(10px + 4vmin);
+
+    transition: width 0.5s ease, height 0.5s ease;
+}
+
+.normal-text.at-top {
+
+    width: 16%;
+    height: calc(10px + 9vmin);
+}

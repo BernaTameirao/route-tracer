@@ -1,0 +1,63 @@
+.text-carousel {
+
+    font-family: Arimo;
+    font-size: calc(10px + 1vmin);
+}
+
+.title-carousel {
+
+    font-family: Bebas Neue;
+    color: #fff;
+    font-size: calc(8vmin + 15px);
+    margin-bottom: 1%;
+}
+
+.div-carousel {
+
+    position: absolute;
+    top: 30%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 36%;
+}
+
+.background-text-carousel {
+
+    background-color: #fff;
+    border-color: rgb(49, 49, 49);
+    border-style: outset;
+    padding: 1%;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1%;
+    opacity: 0.85;
+}
+
+.button-start {
+
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+
+    border-color: #2980b9;
+    border-style: outset;
+    border-radius: 4px;
+
+    font-family: Arimo;
+    font-size: calc(7px + 1vmin);
+    width: calc(15vmin + 20px);
+    opacity: 0.85;
+
+    transition: background-color 0.5s ease;
+}
+
+.button-start:hover {
+
+    background-color: #2980b9;
+}

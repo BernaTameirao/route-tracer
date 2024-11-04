@@ -1,0 +1,25 @@
+.mainDivResults {
+
+    background: linear-gradient(to bottom, #eeeeee, #aaaaaa);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    color: rgb(41, 41, 41);
+}
+
+.backgroundTextResults {
+
+    background: white;
+    border-radius: 10px;
+    border-color: rgb(49, 49, 49);
+    border-style: outset;
+    padding: 5%;
+    max-width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7%;
+
+    position: relative;
+}
